@@ -22,7 +22,12 @@
  
   width: 80%;
  
-  
+}
+
+
+.prImage5 {
+    margin: 0;
+    width: 100%;
 }
 
 
@@ -54,11 +59,13 @@
 .ul {
   padding: 0;
   list-style-type: none; /*remove bullet points from list*/
+  
+    
 }
 
 
 .li {
-
+  
 
   
 }
