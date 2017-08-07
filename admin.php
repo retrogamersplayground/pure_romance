@@ -1,3 +1,9 @@
+
+<head>
+<script src="jquery-3.2.1.min.js"></script>
+</head>
+
+
 <?php require('includes/config.php'); 
 
 //if not logged in redirect to login page
@@ -9,6 +15,8 @@ $title = 'Admin Page';
 //include header template
 require('layout/header.php'); 
 ?>
+
+<!--title and logout-->
 
 <div class="container">
 
@@ -26,8 +34,8 @@ require('layout/header.php');
 
 </div>
 
+<!--add new admin script-->
 
-this will be the admin page to add content dynamically.
 <hr>
 <?php
 //if form has been submitted process it
@@ -110,7 +118,7 @@ if(isset($_POST['submit'])){
 			$mail->send();
 
 			//redirect to index page
-			header('Location: index.php?action=joined');
+			header('Location: admin.php');
 			exit;
 
 		//else catch the exception and show the error.
@@ -129,6 +137,8 @@ $title = 'PartywithRhondaB.com Admin Page';
 require('layout/header.php');
 ?>
 
+
+<!--form to add new admin-->
 
 <div class="container">
 
@@ -181,8 +191,57 @@ require('layout/header.php');
 
 </div>
 
+
+
 <?php
 //include header template
 require('layout/footer.php');
 ?>
+<hr>
+
+</br>
+</br>
+
+
+
+<!--form to add product to product list database-->
+
+<div class="">
+
+<center>
+	<h2>Add products to Database and then echo to browser</h2>
+	</br>
+<form method="post" action="">
+	Name: <input type="text" id="name" name="name" /> <br />
+	Desription: <input type="text" id="description" name="description" /> <br />
+	Picture: <input type="text" id="picture" name="picture" /> <br />
+	
+	<input type= "submit" value ="add" />
+</form>
+
+</center>
+</div>
+
+</br>
+</br><center>
+<h2>Products in Database</h2>
+
+
+</br>
+</br>
+
+<!--query to echo results from product list to browser-->
+<?php 
+
+	$query ="SELECT * FROM productList";
+	$result = $db->query($query);
+		if($result->rowCount() > 0) {
+			foreach($result as $item) {
+				echo($item['name'] . $item['description'] . $item['picture']  );
+			}
+		}
+		
+?>
+</center>
+</br>
 <hr>

@@ -21,6 +21,17 @@ try {
 	$db = new PDO("mysql:host=".DBHOST.";dbname=".DBNAME, DBUSER, DBPASS);
 	$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
+	$name = $_POST['name'];
+	$description = $_POST['description'];
+	$picture = $_POST['picture'];
+	
+	$q ="INSERT INTO productList(name, description, picture) VALUES(:name, :description, :picture);";
+	
+	$query = $db->prepare($q);
+	
+	$results = $query->execute(array(":name"=>$name, ":description"=>$description, ":picture"=>$picture));
+
+
 } catch(PDOException $e) {
 	//show error
     echo '<p class="bg-danger">'.$e->getMessage().'</p>';
@@ -31,4 +42,9 @@ try {
 include('classes/user.php');
 include('classes/phpmailer/mail.php');
 $user = new User($db);
+
+
+
+$name
+
 ?>
