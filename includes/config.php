@@ -16,22 +16,24 @@ define('DIR','http://domain.com/');
 define('SITEEMAIL','noreply@domain.com');
 
 try {
-
+// create a new pdo connection
 	//create PDO connection
 	$db = new PDO("mysql:host=".DBHOST.";dbname=".DBNAME, DBUSER, DBPASS);
 	$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
+//add product to product list variables 
 	$name = $_POST['name'];
 	$description = $_POST['description'];
 	$picture = $_POST['picture'];
 	
+	//preapared statment to add products to product list
 	$q ="INSERT INTO productList(name, description, picture) VALUES(:name, :description, :picture);";
-	
+	//perpare statement
 	$query = $db->prepare($q);
-	
+	//execute prepared statement to add products to product list
 	$results = $query->execute(array(":name"=>$name, ":description"=>$description, ":picture"=>$picture));
 
-
+// catch errors
 } catch(PDOException $e) {
 	//show error
     echo '<p class="bg-danger">'.$e->getMessage().'</p>';
