@@ -34,6 +34,26 @@ require('layout/header.php');
 
 </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--add new admin script-->
 
 <hr>
@@ -204,6 +224,32 @@ require('layout/footer.php');
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--form to add product to product list database-->
 
 <div class="">
@@ -212,9 +258,9 @@ require('layout/footer.php');
 	<h2>Add products to Database and then echo to browser</h2>
 	</br>
 <form method="post" action="">
-	Name: <input type="text" id="name" name="name" /> <br />
-	Desription: <input type="text" id="description" name="description" /> <br />
-	Picture: <input type="text" id="picture" name="picture" /> <br />
+	Name: <input type="text" id="name" name="name" required /> <br />
+	Desription: <input type="text" id="description" name="description" required/> <br />
+	Picture: <input type="text" id="picture" name="picture" required /> <br />
 	
 	<input type= "submit" value ="add" />
 </form>
@@ -230,18 +276,34 @@ require('layout/footer.php');
 </br>
 </br>
 
+
+<?php include_once("products_display.php");?>
+
+
+
+
+
+
+
+
 <!--query to echo results from product list to browser-->
+
+
+<!--this script needs work.-->
 <?php 
 
 	$query ="SELECT * FROM productList";
 	$result = $db->query($query);
 		if($result->rowCount() > 0) {
 			foreach($result as $item) {
-				echo($item['name'] . $item['description'] . $item['picture']  );
+				
+			
+				echo $item['name'] . $item['description'] . $item['picture'] ;	
 			}
 		}
-		
+    		
 ?>
 </center>
 </br>
 <hr>
+

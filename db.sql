@@ -8,3 +8,13 @@ CREATE TABLE `members` (
   `resetComplete` varchar(3) DEFAULT 'No',
   PRIMARY KEY (`memberID`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE `productList` (
+  `productID` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NULL,
+  `description` varchar(255) NULL,
+  `picture` varchar(255) NULL,
+
+  PRIMARY KEY (`productID`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
