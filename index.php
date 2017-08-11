@@ -64,6 +64,19 @@ padding-right: 50px;
  </div> <!--container3-->
  
    <div class="container2">
+   
+   </br>
+   </br>
+   
+ 
+ <h2>These are my availible party dates and upcoming events. My dates fill up quickly. Pick your date now and send me a message to save your date!</h2>
+ <?php include_once("calendar.php");?>
+ 
+ </div>
+ 
+ </br>
+ </br>
+   
      Contact me 
      
      

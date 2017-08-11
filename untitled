@@ -1,0 +1,38 @@
+try {
+
+	//create PDO connection
+	$db2 = new PDO("mysql:host=".DBHOST.";dbname=".DBNAME, DBUSER, DBPASS);
+	$db2->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+
+
+
+//add events to event list varialbes
+	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+	
+	
+	$picture2 = $_POST['picture'];
+	$description2 = $_POST['description'];
+	$location= $_POST['location'];
+	$date = $_POST['date'];
+	$time = $_POST['time'];
+	
+	
+	//preapared statment to add events to event list
+	$q2 ="INSERT INTO eventList(picture, description, location, date, time) VALUES(:picture, :description, :location, :date, :time);";
+	//perpare statement
+	$query2 = $db2->prepare($q2);
+	//execute prepared statement to add products to product list
+	$results2 = $query2->execute(array(":picture"=>$picture2, ":description"=>$description2, ":location"=>$location, ":date"=>$date, ":time"=>$time));
+	}
+	
+	
+	
+// catch errors
+} catch(PDOException $e) {
+	//show error
+    echo '<p class="bg-danger">'.$e->getMessage().'</p>';
+    exit;
+}
+
+

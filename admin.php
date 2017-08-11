@@ -1,6 +1,7 @@
 
 <head>
 <script src="jquery-3.2.1.min.js"></script>
+
 </head>
 
 
@@ -24,7 +25,7 @@ require('layout/header.php');
 
 	    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
 			
-				<h2>Welcome to PartywithRhodaB.com admin page <?php echo $_SESSION['username'];?>.</h2>
+				<h2>Welcome to PartywithRhodaB.com Admin Page <?php echo $_SESSION['username'];?>.</h2>
 				<p><a href='logout.php'>Logout</a></p>
 				<hr>
 
@@ -166,7 +167,7 @@ require('layout/header.php');
 
 	    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
 			<form role="form" method="post" action="" autocomplete="off">
-				<h2>Add new Admin</h2>
+				<h2>Add New Admin</h2>
 			
 
 				<?php
@@ -231,6 +232,7 @@ require('layout/footer.php');
 
 
 
+<?php include_once("add_product.php");?>
 
 
 
@@ -250,33 +252,9 @@ require('layout/footer.php');
 
 
 
-<!--form to add product to product list database-->
-
-<div class="">
-
-<center>
-	<h2>Add products to Database and then echo to browser</h2>
-	</br>
-<form method="post" action="">
-	Name: <input type="text" id="name" name="name" required /> <br />
-	Desription: <input type="text" id="description" name="description" required/> <br />
-	Picture: <input type="text" id="picture" name="picture" required /> <br />
-	
-	<input type= "submit" value ="add" />
-</form>
-
-</center>
-</div>
-
-</br>
-</br><center>
-<h2>Products in Database</h2>
-
-
+<h2>Products from product_display.php</h2>
 </br>
 </br>
-
-
 <?php include_once("products_display.php");?>
 
 
@@ -286,24 +264,29 @@ require('layout/footer.php');
 
 
 
-<!--query to echo results from product list to browser-->
 
-
-<!--this script needs work.-->
-<?php 
-
-	$query ="SELECT * FROM productList";
-	$result = $db->query($query);
-		if($result->rowCount() > 0) {
-			foreach($result as $item) {
-				
-			
-				echo $item['name'] . $item['description'] . $item['picture'] ;	
-			}
-		}
-    		
-?>
 </center>
 </br>
 <hr>
 
+
+
+
+</br>
+</br>
+
+<?php include_once("add_event.php");?>
+
+
+
+
+
+
+
+
+</br>
+</br>
+<h2>Events from events_display.php</h2>
+</br>
+</br>
+<?php include_once("event_display.php");?>

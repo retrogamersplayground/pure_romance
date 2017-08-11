@@ -18,3 +18,16 @@ CREATE TABLE `productList` (
 
   PRIMARY KEY (`productID`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE `eventList` (
+  `eventID` int(11) NOT NULL AUTO_INCREMENT,
+  `picture` varchar(255) NULL,
+  `description` varchar(255) NULL,
+  `location` varchar(255) NULL,
+  `date` varchar(255) NULL,
+  `time` varchar(255) NULL,
+
+
+  PRIMARY KEY (`eventID`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
