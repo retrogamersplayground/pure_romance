@@ -51,7 +51,16 @@
         </label>
         
         <div class="text-center fade-in">
-           <p><input class="input" id="mybtn" type="submit" value="Send"> <span id="status"></span></p>
+           <p><input class="input" id="mybtn" type="submit" value="SEND" style="padding: 10px 20px;
+  border: 4px solid hotpink;
+  border-radius: 3px;
+  background: black;
+  color: hotpink;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  cursor: pointer; " hover="background: hotpink;
+  color: black;" onmouseover="this.getElementsByClassName('name')[0].style.backgroundColor = 'yellow'"; > <span id="status"></span></p>
         </div>
       </form>
     </div>
@@ -80,6 +89,8 @@ function submitForm(){
 		if(ajax.readyState == 4 && ajax.status == 200) {
 			if(ajax.responseText == "success"){
 		     _("my_form").innerHTML = '<h2>Thank you. Your message has been sent.</h2>';
+		    
+		    
 			} else {
 				_("status").innerHTML = ajax.responseText;
 				_("mybtn").disabled = false;

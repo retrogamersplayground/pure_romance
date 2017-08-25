@@ -1,12 +1,11 @@
 <?php
-if( isset($_POST['n']) && isset($_POST['e']) && isset($_POST['m']) ){
+if( isset($_POST['n']) && isset($_POST['e']) ){
 	$n = htmlentities($_POST['n']); // HINT: use preg_replace() to filter the data
 	$e = htmlentities($_POST['e']);
-	$m = htmlentities(nl2br($_POST['m']));
 	$to = "neilfloyd99@gmail.com";	
 	$from = $e;
-	$subject = 'Contact Form Message';
-	$message = ('<b>Name:</b> '.$n.' <br><b>Email:</b> '.$e.' <p>'.$m.'</p>');
+	$subject = 'Request to Join the Team';
+	$message = ('<b>Name:</b> '.$n.' <br><b>Email:</b> '.$e);
 	$headers = ("From: $from\n");
 	$headers .= "MIME-Version: 1.0\n";
 	$headers .= "Content-type: text/html; charset=iso-8859-1\n";

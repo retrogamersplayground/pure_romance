@@ -48,7 +48,7 @@ console.log('3');
 }
 
 $('.rerun-button').click(function(){
- $('.modal-wrap').removeClass('animate-out')
+ $('.modal-wrap').removeClass('animate-up')
                   .removeClass('animate-clear')
                   .find('.modal-body')
                   .first().addClass('is-showing')

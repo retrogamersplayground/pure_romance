@@ -1,31 +1,38 @@
-<head>
-<meta charset="uft-8">
-   
-   <meta name="viewport" content="width=device-width, initial-scale=1">
- 
-   <link rel="stylesheet" href="/main.css">  
-
-</head>
-
-
-
-
-
-<footer class="footer">
- 
-  <ul class="ul">
-    
-    <li class="li"> 
-      <a href="#"><img src=" https://tse4.mm.bing.net/th?id=OIP.1eYqlEwW_1CwdKkeKFuw4AEAEA&pid=15.1&P=0&w=300&h=300" id="facebook"> </a> 
-    </li>
-    
-    <li class="li"> 
-      <a href="#"><img src="https://tse4.mm.bing.net/th?id=OIP.bIzoYr70o4GK7lp8H2wYywEsB5&pid=15.1&P=0&w=308&h=125" id="twitter"> </a> 
-    </li>
-    
-    
-    
-    
-  </ul>
-
-</footer>
+<footer id="showcase">
+        <div class="container">
+            
+            
+            <div id="boxes2">
+                    <div class="box2">
+                        <ul id="navigation">
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="products.php">Products</a></li>
+                            <li><a href="parties.php">Parties</a></li>
+                            <li><a href="events.php">Events</a></li>
+                            <li><a href="team.php">My Team</a></li>
+                            <li><a href="contact.php">Contact Me</a></li>
+                        </ul>
+                    </div><!--box-->
+          
+                    
+                    <div class="box2">
+                        <ul>
+                                <li><a href="#"><img src="images/facebook.png" width="70px class="circle"></a></li>
+                                <li><a href="#"><img src="images/snap.jpeg" width="70px" class="circle"></a></li>
+                                <li><a href="#"><img src="images/instagram.jpeg" width="70px" class="circle"></a></li>
+                                <li><a href="#"><img src="images/twitter.jpeg" width="70px" class="circle"></a></li>
+                                
+                        </ul>
+                    </div><!--box-->
+                
+            </div><!--boxes-->
+            
+            
+            
+            
+             
+        </div><!--container-->
+        
+         <p>Party with Rhonda B.  Copyright &copy; 2017</p> 
+        
+    </footer>
