@@ -14,10 +14,10 @@ if($conn->connection_error) {
 $name = mysqli_real_escape_string($conn, $_POST['name']);
 $description = mysqli_real_escape_string($conn, $_POST['description']);
 $picture = mysqli_real_escape_string($conn, $_POST['picture']);
+$link = mysqli_real_escape_string($conn, $POST['link']);
 
 
-
-$sql = "INSERT INTO eventList (name, description, picture) VALUES ('$name', '$description', '$picture')";
+$sql = "INSERT INTO productList (name, description, picture, link) VALUES ('$name', '$description', '$picture', '$link' )";
 
 if($conn->query($sql) === TRUE) {
 

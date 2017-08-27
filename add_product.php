@@ -42,8 +42,9 @@ input{
 	<input type="text" id="name" name="name" placeholder="Name" required /> <br />
 	<input type="text" id="description" name="description" placeholder="Description" required/> <br />
 	<input type="text" id="picture" name="picture" placeholder="Picture" required /> <br />
+	<input type="text" id="link" name="link" placeholder="Product URL" required /> <br />
 	
-	<input type= "submit" id= "submit" value ="Add" />
+	<input type= "submit" id= "submit" value ="Add Product" />
 </form>
 
 </center>
