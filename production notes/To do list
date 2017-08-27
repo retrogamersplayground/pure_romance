@@ -1,0 +1,28 @@
+
+TO DO LIST (Push to github after every item is completed)
+
+1. style text
+
+2. get team pictures from rhonda and replace the placeholder images on team page
+
+3. adjust picture sizes
+
+4. style and readd rhonda's calendar to events page replacing my calendar
+
+5. create new css for mobile layout after full size layout is completely finished
+
+6. style active links for each page
+
+7. add bug list
+
+8. add a list of items that need to be tested
+
+9. match all c9 files with database username, password, and database name from partywithrhondab.com site so that when uploading files everything matches
+
+10 create a written list of all files and compare to partywithrhondab.com site, add any missing files and folders
+
+11. style products_display.php and add to products.php as php include
+
+12. add event_display.php to events.php as an include inside of an automated slideshow
+
+13. get about Rhonda text and replace placeholder text on index.php

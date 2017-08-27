@@ -1,0 +1,23 @@
+Testing List(track testing of each item, enter date of test, Test each item weekly to insure nothing is broken when code is updated)
+
+1. products.php
+
+2. events.php
+
+3. check productList database for duplicate or null values
+
+4. check eventList database for duplicate or null values
+
+5. team form
+
+6. contact form
+
+7. party form
+
+8. nav bar links   part/home/products
+
+9. footer links  party/team/home/events/contact us/products
+
+10. picture links  products/events/pictures/team
+
+11. picture links from products page to pureromance.com
