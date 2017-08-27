@@ -16,10 +16,11 @@
 
   </head>
 
-  <body>
-<?php include_once("header.php");?>
+<body>
     
-<?php include_once("showcase.php");?>
+    <?php include_once("header.php");?>
+    
+    <?php include_once("showcase.php");?>
     <section id="boxes">
         <div class="container"></div>
            <div class="box">
@@ -83,6 +84,7 @@
     
     
     <?php include_once("footer.php");?>
-    
+  
   </body>
+   
 </html>

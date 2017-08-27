@@ -12,7 +12,7 @@ define('DBPASS','');
 define('DBNAME','testing');
 
 //application address
-define('DIR','http://domain.com/');
+define('DIR','https://partywithrhondab.com/');
 define('SITEEMAIL','noreply@domain.com');
 
 try {

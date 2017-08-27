@@ -1,10 +1,3 @@
-
-<head>
-<script src="jquery-3.2.1.min.js"></script>
-
-</head>
-
-
 <?php require('includes/config.php'); 
 
 //if not logged in redirect to login page
@@ -34,6 +27,16 @@ require('layout/header.php');
 
 
 </div>
+
+
+
+
+<html>
+<head>
+<script src="jquery-3.2.1.min.js"></script>
+
+</head>
+
 
 
 
@@ -290,3 +293,5 @@ require('layout/footer.php');
 </br>
 </br>
 <?php include_once("event_display.php");?>
+
+</html>
