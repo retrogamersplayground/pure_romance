@@ -23,6 +23,6 @@ TO DO LIST (Push to github after every item is completed)
 
 11. style products_display.php and add to products.php as php include
 
-12. add event_display.php to events.php as an include inside of an automated slideshow
+12. add event_display.php to events.php as an include inside of an automated slideshow --- COMPLETED 8/28/2017
 
 13. get about Rhonda text and replace placeholder text on index.php

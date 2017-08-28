@@ -19,11 +19,11 @@ while($row=mysqli_fetch_array($res))
 ?>
 <div id="slideshow">
    <div>
-   <img src="<?php echo $row["picture"]; ?>" alt="" />
-<p><?php echo $row["description"]; ?></p>
-<p><?php echo $row["location"]; ?></p>
-<p><?php echo $row["date"]; ?></p>
-<p><?php echo $row["time"]; ?></p>
+   <img src="<?php echo $row["picture"]; ?>" alt="" /></br></br>
+<?php echo $row["description"]; ?></br>
+<?php echo $row["location"]; ?></br>
+<?php echo $row["date"]; ?></br>
+<?php echo $row["time"]; ?>
    </div>
 
    <div>
