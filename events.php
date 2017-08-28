@@ -24,12 +24,12 @@
    
    
             <p>Events and Specials hosted by Rhonda</p>
-    </br>
-    </br>
- 
+    
 
-    </br>
-    </br>
+ 
+             <?php include_once("testslide.php");?>
+    
+
 
             <img src="images/pinkcarpet.jpeg" class="prImage4">
          </div> <!--container3-->
