@@ -9,7 +9,7 @@ TO DO LIST (Push to github after every item is completed)
 
 4. style and readd rhonda's calendar to events page replacing my calendar
 
-5. create new css for mobile layout after full size layout is completely finished
+5. create new css for mobile layout after full size layout is completely finished ---completed 09/02/2017
 
 6. style active links for each page
 
@@ -21,7 +21,7 @@ TO DO LIST (Push to github after every item is completed)
 
 10 create a written list of all files and compare to partywithrhondab.com site, add any missing files and folders
 
-11. style products_display.php and add to products.php as php include
+11. style products_display.php and add to products.php as php include --- completed 08/30/2017
 
 12. add event_display.php to events.php as an include inside of an automated slideshow --- COMPLETED 8/28/2017
 

@@ -24,18 +24,18 @@
     <section id="boxes">
         <div class="container">
             <div class="box">
-                <img src="images/products.jpg">
+                <img src="http://media-cache-ec0.pinimg.com/736x/84/b7/0c/84b70cea1ee93bae158ad0188ded7852.jpg">
                 <h3>News</h3>
             </div><!--box-->
             
             
             <div class="box">
-                <img src="images/events.jpeg">
+                <img src="http://pureromancebykellykay.weebly.com/uploads/1/5/7/0/15708048/8113063.jpg?495">
                 <h3>Acknowledgements</h3>
             </div><!--box-->
             
             <div class="box">
-                <img src="images/party.jpg">
+                <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/20708178_1647039161975405_3359897029837862421_n.jpg?oh=656cbac58b3252e369569466ee42bd28&oe=5A5E3095">
                 <h3>Meetings</h3>
             </div><!--box-->
             
@@ -44,7 +44,7 @@
                  <form id="my_form" onsubmit="submitForm(); return false;">
                       <p><input id="n" placeholder="Name" required></p>
                       <p><input id="e" placeholder="Email Address" type="email" required></p>
-                      <p><input id="mybtn" type="submit" value="Submit Form"> <span id="status"></span></p>
+                      <p><input id="mybtn" type="submit" value="Submit"> <span id="status"></span></p>
                 </form>
                 <h3>Join My Team</h3>
                 </div><!--container5-->

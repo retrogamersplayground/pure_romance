@@ -15,12 +15,12 @@
                     </div><!--box-->
           
                     
-                    <div class="box2">
+                    <div class="box3">
                         <ul>
-                                <li><a href="#"><img src="images/facebook.png" width="70px class="circle"></a></li>
-                                <li><a href="#"><img src="images/snap.jpeg" width="70px" class="circle"></a></li>
-                                <li><a href="#"><img src="images/instagram.jpeg" width="70px" class="circle"></a></li>
-                                <li><a href="#"><img src="images/twitter.jpeg" width="70px" class="circle"></a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=100000080113046&hc_ref=ARS-aXgfR4fCd-UBayN9oQb1ksa1as1NCpdyscpXKUnjC-zG6oFg9pgw5fk1En2QCBc&fref=nf" target="_blank"><img src="images/facebook.png" width="60px class="circle"></a></li>
+                                <li><a href="#" target="_blank"><img src="images/snap.jpeg" width="50px" class="circle"></a></li>
+                                <li><a href="#" target="_blank"><img src="images/instagram.jpeg" width="50px" class="circle"></a></li>
+                                <li><a href="#" target="_blank"><img src="images/twitter.jpeg" width="50px" class="circle"></a></li>
                                 
                         </ul>
                     </div><!--box-->
@@ -33,6 +33,6 @@
              
         </div><!--container-->
         
-         <p>Party with Rhonda B.  Copyright &copy; 2017</p> 
+         <p style="text-align:center">Party with Rhonda B.  Copyright &copy; 2017</p> </br>
         
     </footer>

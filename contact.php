@@ -19,7 +19,7 @@
             
         <div id="container5">   
             <div id="container6">
-            <img src="images/email.jpeg">
+            <img src="https://s-media-cache-ak0.pinimg.com/736x/09/e7/75/09e775e02a076d721d27a1657a76133f.jpg">
             </div><!--container6-->
             <h1>Hi! It's Rhonda. You can contact me below, and I will respond soon. Thanks!</h1>
             
@@ -27,7 +27,7 @@
                   <p><input id="n" placeholder="Name" required></p>
                   <p><input id="e" placeholder="Email Address" type="email" required></p>
                   <textarea id="m" placeholder="write your message here" rows="10" required></textarea>
-                  <p><input id="mybtn" type="submit" value="Submit Form"> <span id="status"></span></p>
+                  <p><input id="mybtn" type="submit" value="Submit"> <span id="status"></span></p>
             </form>
         
         </div> <!--container5-->

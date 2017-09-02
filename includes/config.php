@@ -9,7 +9,7 @@ date_default_timezone_set('Europe/London');
 define('DBHOST','localhost');
 define('DBUSER','neilfloyd');
 define('DBPASS','');
-define('DBNAME','testing');
+define('DBNAME','id2560534_testing');
 
 //application address
 define('DIR','https://partywithrhondab.com/');

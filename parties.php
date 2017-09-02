@@ -41,9 +41,9 @@
             <div class="boxes">
                 
                 <div class="box" style="text-align: center;">
-                    <h2>These are my availible party dates and upcoming events. My dates fill up quickly. Pick your date now and send me a message to save your date!</h2>
+                    <h3>These are my availible party dates and upcoming events. My dates fill up quickly. Pick your date now and send me a message to save your date!</h3>
                     </br>
-                    <iframe src="https://calendar.google.com/calendar/embed?src=p1nto2ee0fp9ibbf7hedrt7trc%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width= 80%  height= 65% frameborder="0" scrolling="no"></iframe>
+                    <iframe src="https://calendar.google.com/calendar/embed?src=p1nto2ee0fp9ibbf7hedrt7trc%40group.calendar.google.com&ctz=America/New_York" style="border: 0" frameborder="0" scrolling="no"></iframe>
                 </div><!--box--> 
             
                  </br>
@@ -58,7 +58,7 @@
 	                    <input id="n" type="text" name="Name" placeholder="Name"/></br>
 	                    <input id="e" type="email" name="Email" placeholder="Email"/></br>
 	                    <input id="d" type="date" name="Request a Party Date"/></br>
-	                    <p><input id="mybtn" type="submit" value="Submit Form"> <span id="status"></span></p></br>
+	                    <p><input id="mybtn" type="submit" value="Submit"> <span id="status"></span></p></br>
                     </form>
                 </div><!--box3-->
                 
