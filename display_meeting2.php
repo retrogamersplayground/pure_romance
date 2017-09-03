@@ -1,3 +1,5 @@
+<!-- display meetings to be echoed to admin page with delete link -->
+
 <?php
 
 $link=mysqli_connect("localhost", "root", "");
@@ -59,10 +61,8 @@ mysqli_select_db($link,"id2560534_testing");
 </style> 
 
 
-
-
 <?php
-$res2=mysqli_query($link, "SELECT * FROM eventList");
+$res2=mysqli_query($link, "SELECT * FROM teamMeeting");
 while($row=mysqli_fetch_array($res2))
 {
 ?>
@@ -70,11 +70,11 @@ while($row=mysqli_fetch_array($res2))
 
 
 <img src="<?php echo $row["picture"]; ?>" alt="" />
-<!--<p><?php echo $row["description"]; ?></p>
+<p><?php echo $row["description"]; ?></p>
 <p><?php echo $row["location"]; ?></p></br>
 <p><?php echo $row["date"]; ?></p>
-<p><?php echo $row["time"]; ?></p>-->
-<a href="admin.php?eid=<?php echo $row["eventID"]; ?>">DELETE THIS EVENT</a>
+<p><?php echo $row["time"]; ?></p>
+<a href="admin.php?mID=<?php echo $row["mID"]; ?>">DELETE THIS TEAM MEETING</a>
   </div> <!--box--
 
 <?php
@@ -83,10 +83,10 @@ while($row=mysqli_fetch_array($res2))
 // Attempt delete query executio
 //change the id of what ever you want to delete down here manually
 //if you want it to be dynamically, then you have to pass it from somewhere
-if(isset($_GET['eid'])){
-$eid = $_GET['eid'];
+if(isset($_GET['mID'])){
+$mID = $_GET['mID'];
 
-    $sql = "DELETE FROM eventList WHERE eventID = $eid";
+    $sql = "DELETE FROM teamMeeting WHERE mID = $mID";
     if(mysqli_query($link, $sql)){
         $message = "Records were deleted successfully.";
     } else{

@@ -37,8 +37,9 @@
             </div><!--box-->
             
             <div class="box">
-                <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/20708178_1647039161975405_3359897029837862421_n.jpg?oh=656cbac58b3252e369569466ee42bd28&oe=5A5E3095">
+                
                 <h3>Meetings</h3>
+                <?php include_once("display_meeting.php");?>
             </div><!--box-->
             
             <div class="box">

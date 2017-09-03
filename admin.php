@@ -304,6 +304,14 @@ require('layout/footer.php');
 </br>
 </br>
 
-
+<?php include_once("add_meeting.php");?>
+</br>
+</br>
+<h1>Display meetings from display_meeting2.php</h1>
+</br>
+</br>
+<?php include_once("display_meeting2.php");?>
+</br>
+</br>
 
 </html>
