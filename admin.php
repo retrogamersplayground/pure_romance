@@ -289,9 +289,9 @@ require('layout/footer.php');
 
 </br>
 </br>
-<h2>Events from events_display.php</h2>
+<h2>Events from events_display2.php</h2>
 </br>
 </br>
-<?php include_once("event_display.php");?>
+<?php include_once("event_display2.php");?>
 
 </html>
