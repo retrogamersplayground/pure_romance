@@ -255,10 +255,10 @@ require('layout/footer.php');
 
 
 
-<h2>Products from product_display.php</h2>
+<h2>Products from product_display2.php</h2>
 </br>
 </br>
-<?php include_once("products_display.php");?>
+<?php include_once("products_display2.php");?>
 
 
 

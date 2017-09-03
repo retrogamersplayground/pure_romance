@@ -45,6 +45,7 @@ input{
 	<input type="text" id="link" name="link" placeholder="Product URL" required /> <br />
 	
 	<input type= "submit" id= "submit" value ="Add Product" />
+	
 </form>
 
 </center>
