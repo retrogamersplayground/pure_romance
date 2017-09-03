@@ -5,15 +5,7 @@
 </head>
 
 <div id="slideshow">
-   <div>
-     <a href="https://www.pureromance.com/become-a-consultant#starterkits" target="_blank"><img src="https://www.pureromance.com/getattachment/5b1ee801-35e2-4c35-bdec-13a8c4bd135e/.aspx"></a>
-   </div>
-   <div>
-     <a href="https://www.pureromance.com/Shop/New-Arrivals" target="_blank"><img src="https://www.pureromance.com/getattachment/d6fbab54-d5fc-46a9-a14e-7c6cf38ea417/.aspx"></a>
-   </div>
-   <div>
-     <a href="https://www.pureromance.com/Special-Pages/Smart-Shipd" target="_blank"><img src="https://www.pureromance.com/getattachment/3601ae55-e77f-4962-8f2a-d75de07c9cbf/.aspx"></a>
-   </div>
+   <?php include_once("display_banner.php");?>
 </div>
 
 

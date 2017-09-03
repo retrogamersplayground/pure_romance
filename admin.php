@@ -314,4 +314,24 @@ require('layout/footer.php');
 </br>
 </br>
 
+<?php include_once("add_news.php");?>
+</br>
+</br>
+<h1>Display news from news2.php</h1>
+</br>
+</br>
+<?php include_once("news2.php");?>
+</br>
+</br>
+<?php include_once("add_banner.php");?>
+</br>
+</br>
+<h1>Display banner images from dispaly_banner2.php</h1>
+</br>
+</br?
+<?php include_once("display_banner2.php");?>
+</br>
+</br>
+
+
 </html>

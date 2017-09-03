@@ -24,8 +24,10 @@
     <section id="boxes">
         <div class="container">
             <div class="box">
-                <img src="http://media-cache-ec0.pinimg.com/736x/84/b7/0c/84b70cea1ee93bae158ad0188ded7852.jpg">
+                
                 <h3>News</h3>
+                <?php include_once("news.php");?>
+                
             </div><!--box-->
             
             

@@ -1,5 +1,9 @@
 BUG LIST(comment when each bug is fixed and push to github after each fix)
 
-1. google calendar's height expands on mobile
+1. google calendar's height expands on mobile ---bug fixed 09/02/2017 ---
 
 2. images on the footer are too large on products.php page  ---bug fixed 08/30/2017 12:40 ---
+
+3.all images are diplaying together on banner.
+
+4.all images are displaying together on events slider and admin page
