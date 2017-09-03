@@ -293,5 +293,17 @@ require('layout/footer.php');
 </br>
 </br>
 <?php include_once("event_display2.php");?>
+</br>
+</br>
+<?php include_once("add_acknowledgement.php");?>
+</br>
+</br>
+<h1>acknowledgements form acknowledgements2.php</h1>
+</br>
+<?php include_once("acknowledgements2.php");?>
+</br>
+</br>
+
+
 
 </html>

@@ -30,8 +30,10 @@
             
             
             <div class="box">
-                <img src="http://pureromancebykellykay.weebly.com/uploads/1/5/7/0/15708048/8113063.jpg?495">
+                
                 <h3>Acknowledgements</h3>
+                <?php include_once("acknowledgements.php");?>
+                
             </div><!--box-->
             
             <div class="box">
