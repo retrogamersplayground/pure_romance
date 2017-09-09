@@ -225,7 +225,9 @@ require('layout/footer.php');
 
 </br>
 </br>
-
+</hr>
+</br>
+<h1>PRODUCTS PAGE</h1>
 
 
 
@@ -236,23 +238,7 @@ require('layout/footer.php');
 
 
 <?php include_once("add_product.php");?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</br>
 
 
 <h2>Products from product_display2.php</h2>
@@ -277,6 +263,9 @@ require('layout/footer.php');
 
 </br>
 </br>
+<h1>EVENTS PAGE</h1>
+<hq
+</br>
 
 <?php include_once("add_event.php");?>
 
@@ -294,7 +283,11 @@ require('layout/footer.php');
 </br>
 <?php include_once("event_display2.php");?>
 </br>
+<hr>
 </br>
+</br>
+<h1>PICTURES FOR TEAM PAGE</h1>
+
 <?php include_once("add_acknowledgement.php");?>
 </br>
 </br>
@@ -323,13 +316,30 @@ require('layout/footer.php');
 <?php include_once("news2.php");?>
 </br>
 </br>
+<h1>Add first image to banner</h1>
 <?php include_once("add_banner.php");?>
 </br>
+<h1>First banner image</h1>
+<?php include_once("display_banner2.php");?>
 </br>
-<h1>Display banner images from dispaly_banner2.php</h1>
+<h1>Add second image to banner</h1>
+<?php include_once("add_banner2.php");?>
+</br>
+<h1>Second banner image</h1>
+<?php include_once("display2_banner2.php");?>
+</br>
+
+<h1>Add third image to banner</h1>
+<?php include_once("add_banner3.php");?>
+</br>
+<h1>Third banner image</h1>
+<?php include_once("display3_banner3.php");?>
 </br>
 </br?
-<?php include_once("display_banner2.php");?>
+
+</br>
+
+
 </br>
 </br>
 

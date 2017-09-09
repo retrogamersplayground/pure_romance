@@ -5,7 +5,9 @@
 </head>
 
 <div id="slideshow">
-   <?php include_once("display_banner.php");?>
+     <div><?php include_once("display_banner.php");?></div>
+      <div><?php include_once("display2_banner.php");?> </div>
+       <div><?php include_once("display3_banner.php");?></div>
 </div>
 
 

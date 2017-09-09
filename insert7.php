@@ -1,4 +1,4 @@
-<!--used to insert first image into bannerslider.php-->
+<!--used to insert second image into bannerslider.php-->
 
 <?php
 
@@ -18,7 +18,7 @@ $picture = mysqli_real_escape_string($conn, $_POST['picture']);
 $link = mysqli_real_escape_string($conn, $_POST['link']);
 
 
-$sql = "INSERT INTO banner (picture, link) VALUES ('$picture', '$link' )";
+$sql = "INSERT INTO banner2 (picture, link) VALUES ('$picture', '$link' )";
 
 if($conn->query($sql) === TRUE) {
 
