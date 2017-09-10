@@ -58,9 +58,9 @@
                     
                     <form id="my_form" onsubmit="submitForm(); return false;">
         
-	                    <input id="n" type="text" name="Name" placeholder="Name"/></br></br>
-	                    <input id="e" type="email" name="Email" placeholder="Email"/></br></br>
-	                    <input id="d" type="date" name="Request a Party Date"/></br></br>
+	                    <input id="n" type="text" name="Name" placeholder="Name" required/></br></br>
+	                    <input id="e" type="email" name="Email" placeholder="Email" required/></br></br>
+	                    <input id="d" type="date" name="Request a Party Date" required/></br></br>
 	                    <input id="mybtn" type="submit" value="Submit"> <span id="status"></span></br>
                     </form>
                 </div><!--box3-->
