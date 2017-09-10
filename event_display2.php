@@ -1,15 +1,19 @@
 <?php include_once("mysqli_connection.php");?>
 
 <style>
+
     .container{
         text-align:center;
+        
     }
+
     .box{
     display:inline-block; /* so the children on the same line */
     height: auto;
     width: 24%;
     margin-bottom:25px;
         }
+
     .box img{
         width:80%;
     }
@@ -18,12 +22,14 @@
         .container{
         text-align:center;
     }
+
     .box{
     display:inline-block; /* so the children on the same line */
     height: auto;
     width: 48%;
     margin-bottom:25px;
         }
+
     .box img{
         width:60%;
     }
@@ -36,12 +42,14 @@
         .container{
         text-align:center;
     }
+
     .box{
     display:inline-block; /* so the children on the same line */
     height: auto;
     width: 97%;
     margin-bottom:25px;
         }
+
     .box img{
         width:60%;
     }
@@ -54,27 +62,27 @@
 
 
 
-
+<div class="container">
 <?php
 $res2=mysqli_query($link, "SELECT * FROM eventList");
 while($row=mysqli_fetch_array($res2))
 {
 ?>
 
-
+<div class="box">
 
 <img src="<?php echo $row["picture"]; ?>" alt="" />
-<!--<p><?php echo $row["description"]; ?></p>
+<p><?php echo $row["description"]; ?></p>
 <p><?php echo $row["location"]; ?></p></br>
 <p><?php echo $row["date"]; ?></p>
-<p><?php echo $row["time"]; ?></p>-->
+<p><?php echo $row["time"]; ?></p>
 <a href="admin.php?eid=<?php echo $row["eventID"]; ?>">DELETE THIS EVENT</a>
-  </div> <!--box--
+  </div> <!--box-->
 
 <?php
 }
 
-// Attempt delete query executio
+// Attempt delete query execution
 //change the id of what ever you want to delete down here manually
 //if you want it to be dynamically, then you have to pass it from somewhere
 if(isset($_GET['eid'])){
@@ -96,9 +104,9 @@ if(isset($_GET['message'])){
 
 ?>
 
+</br>
 
-
-
+</div>
 
 
 

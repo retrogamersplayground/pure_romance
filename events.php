@@ -27,7 +27,7 @@
     
 
  
-             <?php include_once("testslide.php");?>
+             <?php include_once("event_display.php");?>
     
 
 </br>
