@@ -16,21 +16,24 @@
         <?php include_once("header.php");?>
         <?php include_once("showcase.php");?>
             
-            
-        <div id="container5">   
+            </br>
+            </br>
+            </br>
+        <div id="container7">   
             <div id="container6">
             <img src="https://s-media-cache-ak0.pinimg.com/736x/09/e7/75/09e775e02a076d721d27a1657a76133f.jpg">
             </div><!--container6-->
-            <h1>Hi! It's Rhonda. You can contact me below, and I will respond soon. Thanks!</h1>
+            </br>
             
             <form id="my_form" onsubmit="submitForm(); return false;">
-                  <p><input id="n" placeholder="Name" required></p>
-                  <p><input id="e" placeholder="Email Address" type="email" required></p>
-                  <textarea id="m" placeholder="write your message here" rows="10" required></textarea>
-                  <p><input id="mybtn" type="submit" value="Submit"> <span id="status"></span></p>
+                  <input id="n" placeholder="Name" required></br></br>
+                  <input id="e" placeholder="Email Address" type="email" required></br></br>
+                  <textarea id="m" placeholder="Message" rows="10" required></textarea></br></br>
+                  
+                  <input id="mybtn" type="submit" value="Submit"> <span id="status"></span>
             </form>
         
-        </div> <!--container5-->
+        </div> <!--container7-->
     
     </br>   
         

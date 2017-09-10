@@ -1,12 +1,6 @@
 <!-- display meetings to be echoed to admin page with delete link -->
 
-<?php
-
-$link=mysqli_connect("localhost", "root", "");
-mysqli_select_db($link,"id2560534_testing");
-
-
-?>
+<?php include_once("mysqli_connection.php");?>
 
 <style>
     .container{

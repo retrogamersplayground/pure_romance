@@ -21,12 +21,12 @@
        <section id="boxes">
         <div class="container">
             
-            <div class="box">
+            <div class="box party">
                 <img src="https://ladiesnightinparties.files.wordpress.com/2016/02/cropped-600x600_1425419093923-lets-make-this-party.jpg">
             </div><!--box-->
             
             
-            <div class="box">
+            <div class="box hide">
                 <img src="https://prbyrachel.files.wordpress.com/2015/08/party.jpg">
             </div><!--box-->
 
@@ -40,14 +40,17 @@
             
             <div class="boxes">
                 
-                <div class="box" style="text-align: center;">
-                    <h3>These are my availible party dates and upcoming events. My dates fill up quickly. Pick your date now and send me a message to save your date!</h3>
-                    </br>
+                <div class="box iframe" style="text-align: center;">
+                   
                     <iframe src="https://calendar.google.com/calendar/embed?src=p1nto2ee0fp9ibbf7hedrt7trc%40group.calendar.google.com&ctz=America/New_York" style="border: 0" frameborder="0" scrolling="no"></iframe>
-                </div><!--box--> 
+               
             
-                 </br>
-                <div id="container5"
+                 
+                  <h1>These are my availible party dates and upcoming events. My dates fill up quickly. Pick your date now and send me a message to save your date!</h1>
+                    </br>
+                     </div><!--box--> 
+                     </br>
+                <div id="container7"
                 <div id="box3">
                     
                     <img src="http://dubaieventsblog.com/wp-content/uploads/2015/09/ladiesnightcover.jpg" class="partyFormImg">
@@ -55,10 +58,10 @@
                     
                     <form id="my_form" onsubmit="submitForm(); return false;">
         
-	                    <input id="n" type="text" name="Name" placeholder="Name"/></br>
-	                    <input id="e" type="email" name="Email" placeholder="Email"/></br>
-	                    <input id="d" type="date" name="Request a Party Date"/></br>
-	                    <p><input id="mybtn" type="submit" value="Submit"> <span id="status"></span></p></br>
+	                    <input id="n" type="text" name="Name" placeholder="Name"/></br></br>
+	                    <input id="e" type="email" name="Email" placeholder="Email"/></br></br>
+	                    <input id="d" type="date" name="Request a Party Date"/></br></br>
+	                    <input id="mybtn" type="submit" value="Submit"> <span id="status"></span></br>
                     </form>
                 </div><!--box3-->
                 

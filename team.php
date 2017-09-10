@@ -46,12 +46,13 @@
             
             <div class="box">
                 <div id="container5">
+                    <img src="http://3.bp.blogspot.com/-AP7NhM1eBMw/U9MVwnKCFSI/AAAAAAAAFm8/uFrxh3xa7Wo/s1600/JOIN+MY+TEAM+1.jpg"></br></br>
                  <form id="my_form" onsubmit="submitForm(); return false;">
-                      <p><input id="n" placeholder="Name" required></p>
-                      <p><input id="e" placeholder="Email Address" type="email" required></p>
-                      <p><input id="mybtn" type="submit" value="Submit"> <span id="status"></span></p>
+                      <input id="n" placeholder="Name" required></br></br>
+                      <input id="e" placeholder="Email Address" type="email" required></br></br>
+                      <input id="mybtn" type="submit" value="Submit"> <span id="status"></span></br></br>
                 </form>
-                <h3>Join My Team</h3>
+           
                 </div><!--container5-->
             </div><!--box-->
         </div><!--container-->

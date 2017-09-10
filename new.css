@@ -12,6 +12,16 @@ body {
 iframe{
 width:80%;
 height:75%;
+padding-top:50px;
+}
+
+
+.iframe h1{
+    margin:25%;
+    padding:20px;
+    padding-bottom:0;
+    margin-bottom:0;
+    margin-top:0;
 }
 
 #submit{
@@ -23,28 +33,30 @@ height:75%;
 
 .container{
     width:80%;
-
+    margin-bottom:50px;
     margin:auto;
     overflow:hidden;
 }
+
 .highlight{
     color: blueviolet
 }
+
 input{
     width:100%;
-    margin:5px;
     height: 50px;
 }
 
 textarea{
     width:100%;
-    margin:5px;
+    
 }
 #mybtn {
-     background:black;
+    background:black;
     color:hotpink;
     border:4px solid white;
     font-size: 20px;
+    width:100%;
 }
 
 ul{
@@ -223,6 +235,10 @@ p{
     width:100%;
     text-align:center;
 }
+.box p{
+    text-align:center;
+    
+}
 
 #boxes4{
     margin-top: 20px;
@@ -248,11 +264,8 @@ p{
 #container5 {
     background: hotpink;
     text-align:center;
-    padding:20px;
-    margin-left:20%;
-    margin-right:20%;
-    margin-top:50px;
-    margin-bottom:50px;
+    padding:10px;
+    margin:30px;
 }
 
 
@@ -268,6 +281,15 @@ p{
     width:50%;
 }
 
+#container7{
+    background: hotpink;
+    text-align:center;
+    padding:10px;
+    margin:auto;
+    margin-bottom:50px;
+    width:60%;
+    
+}
 
 /*showcase responsive image*/
 .img-res{
@@ -301,6 +323,14 @@ header #branding, header nav, header nav li{
 header{
     padding-bottom: 20px;
 }
+
+
+.iframe h1{
+
+margin:0;
+padding:10px;
+}
+
 #showcase{
     min-height: 200px;
 }
@@ -314,6 +344,8 @@ header{
     padding: 10px;
     text-align:center;
 }
+
+
 
 #boxes .box img{
     width:80%;
@@ -352,6 +384,10 @@ header{
     
 }
 
+.hide{
+    display:none;
+}
+
 iframe{
     width:80%;
     height: 400px;
@@ -360,9 +396,29 @@ iframe{
 
 }
 
+
+
+
+
 @media(max-width: 500px){
 iframe{
 width:350px;
 height:400px;
 }
+
+.hide{
+    display:none;
+}
+
+#container7{
+    background: hotpink;
+    text-align:center;
+    padding:10px;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:50px;
+    width:80%;
+    
+}
+
 }
