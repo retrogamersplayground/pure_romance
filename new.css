@@ -59,6 +59,37 @@ textarea{
     width:100%;
 }
 
+#mybtn:hover {
+    background:hotpink;
+    color:white;
+    border:4px solid black;
+    font-size: 20px;
+    width:100%;
+}
+
+input{
+text-align:center;
+}
+
+input:hover {
+    
+    color:black;
+    border:4px solid black;
+    font-size: 20px;
+    width:100%;
+}
+
+textarea {
+text-align:center;
+}
+
+
+textarea:hover{
+   color:black;
+    border:4px solid black;
+    font-size: 20px;
+}
+
 ul{
     
     margin-bottom: 0;
