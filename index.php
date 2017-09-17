@@ -35,7 +35,25 @@
             
                 <h1>About Rhonda</h1>
                 
-                 <p>    As absolute is by amounted repeated entirely ye returned. These ready timed enjoy might sir yet one since. Years drift never if could forty being no. On estimable dependent as suffering on my. Rank it long have sure in room what as he. Possession travelling sufficient yet our. Talked vanity looked in to. Gay perceive led believed endeavor. Rapturous no of estimable oh therefore direction up. Sons the ever not fine like eyes all sure. </p>
+               <p> Meet your Consultant!  Hey girls!  My name is Rhonda Bingham and I have been a consultant with pure romance since 2014. I'm located in Nicholasville Kentucky but I do travel for parties and fun so don't be afraid to hit me up!</p>
+
+ <p>I have built my business with pure romance while also working a full-time 40 hours per week job and being a wife mom of three.  My kids were in elementary school and middle school when I started my business.</p>
+
+<p> I have completed several leadership trainings with the company and have earned several trips and cash bonuses, among other perks.  As of 2015, Pure Romance has helped pay my portion of the bills in the household so that my income from my day job could be used to pay off debt. I'm currently on target to be debt-free by 2020. Please know that you can feel confident that when you book a party with Rhonda B, you're going to get a knowledgeable and experienced consultant who knows how to bring the fun and excitement to your next girls night.</p>
+
+ <p>I am currently in the process of obtaining my Sexual Health educator certificate which is administered through Indiana University.</p>
+ 
+<p>Feel free to send me any questions or concerns!  I'm here to help you, whether it's a sexual health question, product question, or to help plan your next girls night or other special night!</p>
+
+<p>I can't wait to see you at my next party!</p>
+
+                
+                
+                
+                
+                
+                
+                
           
                 
              <div class="hide">   
